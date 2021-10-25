@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532635605413",
+    "firebase_url": "https://pertama-5fa3b-default-rtdb.firebaseio.com",
+    "project_id": "pertama-5fa3b",
+    "storage_bucket": "pertama-5fa3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532635605413:android:764472329b47c524ed704c",
+        "android_client_info": {
+          "package_name": "com.isomantracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532635605413-skjgvsrp0i8917beu06lv7aq6t29b51r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcVWrbSAFPZ9_aJ4Cf1tICCvtKPTkrYcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532635605413-skjgvsrp0i8917beu06lv7aq6t29b51r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

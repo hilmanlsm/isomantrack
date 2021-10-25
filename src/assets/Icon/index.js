@@ -9,6 +9,7 @@ import IcBellWhite from './ic-bell-white.svg';
 import IcSend from './ic-send.svg';
 import IcChevronsDown from './ic-chevrons-down.svg';
 import IcChevronRight from './ic-chevron-right.svg';
+import IcSignOut from './sign-out.svg';
 
 export {
   IcHomeOff,
@@ -22,4 +23,5 @@ export {
   IcSend,
   IcChevronsDown,
   IcChevronRight,
+  IcSignOut,
 };

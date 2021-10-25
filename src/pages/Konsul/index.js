@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import {IcBellWhite} from '../../assets';
-import {Header, KonsulTabSection} from '../../components';
+import {Header, KonsulTabSection, Chat} from '../../components';
 
 const Konsul = () => {
   return (
@@ -9,19 +9,19 @@ const Konsul = () => {
       <View style={styles.headerContainer}>
         <Header
           color="#4357A2"
-          title="PUSKESMAS MANONJAYA"
+          title="ADMIN NAKES"
           titleColor="#FFFFFF"
           subTitle="Hubungi kami kapan saja!"
           textColor="#FFFFFF"
         />
-        <TouchableOpacity activeOpacity={0.7}>
+        {/* <TouchableOpacity activeOpacity={0.7}>
           <View style={styles.bell}>
             <IcBellWhite />
           </View>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
       <View style={styles.tabContainer}>
-        <KonsulTabSection />
+        <Chat/>
       </View>
     </View>
   );

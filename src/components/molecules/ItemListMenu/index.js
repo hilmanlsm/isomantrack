@@ -2,11 +2,10 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {IcChevronRight} from '../../../assets';
 
-const ItemListMenu = ({text}) => {
+const ItemListMenu = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>{text}</Text>
-      <IcChevronRight />
+    <View >
+      <Text >Detail</Text>
     </View>
   );
 };
@@ -14,12 +13,12 @@ const ItemListMenu = ({text}) => {
 export default ItemListMenu;
 
 const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingVertical: 7,
-  },
+  // container: {
+  //   flexDirection: 'row',
+  //   justifyContent: 'space-between',
+  //   alignItems: 'center',
+  //   paddingVertical: 7,
+  // },
   text: {
     fontSize: 14,
     fontFamily: 'Poppins-Regular',

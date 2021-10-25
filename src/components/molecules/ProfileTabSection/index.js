@@ -37,10 +37,9 @@ const Akun = () => {
         paddingTop: 8,
         paddingHorizontal: 24,
         backgroundColor: '#FFFFFF',
+        height: 300,
       }}>
-      <ItemListMenu text="Detail Akun" />
-      <ItemListMenu text="Ubah Profil" />
-      <ItemListMenu text="Pengaturan" />
+      <Text>AKun Saya</Text>
     </View>
   );
 };

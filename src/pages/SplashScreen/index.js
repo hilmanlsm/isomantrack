@@ -2,12 +2,27 @@ import React from 'react';
 import {useEffect} from 'react';
 import {Text, View} from 'react-native';
 import {Logo} from '../../assets';
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
-    setTimeout(() => {
-      navigation.replace('SignIn');
+    const _validasiSession = async() => {
+      const isLogin = await AsyncStorage.getItem('session_id')
+      if (isLogin) {
+        
+        navigation.replace('MainApp');
+      } else {
+            setTimeout(() => {
+              navigation.replace('SignIn');
     }, 2000);
+
+      }
+    }
+    _validasiSession()
+//     setTimeout(() => {
+//       navigation.replace('SignIn');
+// }, 2000);
+
   }, []);
   return (
     <View
